@@ -19,7 +19,7 @@ LastColumn = ws.Cells(1, Columns.Count).End(xlToLeft).Column
 Dim current_ticker As String
 Dim volume_total As Double
 volume_total = 0
-Dim total_column As Integer
+Dim total_column As Double
 total_column = 2
 
 For i = 2 To LastRow
